@@ -1,7 +1,9 @@
 <head>
         <style type="text/css">
-            body
+            body, html
             {
+                    height: 100%;
+                    width: 100%;
                 margin:   0;
                 overflow: hidden;
             }
@@ -14,10 +16,14 @@
                 top:      0px;
                 width:    100%;
             }
+            div.wrap {
+                height:100%; overflow:hidden;
+                width:    100%;
+            }
         </style>
 </head>
 <html>
-<div>
+<div class="wrap">
     <iframe id="iframe1" src="https://dl.dropboxusercontent.com/u/9814840/English%20Website/index.html" frameborder="0">
         <script type="text/javascript">
     jQuery(document).ready(function () {
