@@ -1,8 +1,18 @@
 <head>
-    <meta http-equiv="refresh" content="0; url=https://dl.dropboxusercontent.com/u/9814840/English%20Website/index.html" />
+   
 </head>
 <html>
-    
+    <iframe src="https://dl.dropboxusercontent.com/u/9814840/English%20Website/index.html">
+        <script type="text/javascript">
+    jQuery(document).ready(function () {
+        jQuery("#IDofControlFiringResizeEvent").click(function () {
+            var frame = $('#IDofiframeInMainWindow', window.parent.document);
+            var height = jQuery("#IDofContainerInsideiFrame").height();
+            frame.height(height + 15);
+        });
+    });
+</script>
+    </iframe>
 
 
 </html>
